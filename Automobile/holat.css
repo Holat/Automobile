@@ -155,7 +155,7 @@ i{
     display: none;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1440px){
     @keyframes bounce {
         0%{
         transform: scale(1);
@@ -167,9 +167,17 @@ i{
         transform: scale(1);
         }
     }
+
+    #search-box input{
+        width: 80%;
+        padding: 2rem  0.8rem;
+        font-size: 1.2rem;
+    }
+
     .cars{
         display: block;
         align-items: center;
+        padding: 0;
         justify-content: center;
     }
     .carsbrand{
